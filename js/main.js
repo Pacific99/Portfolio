@@ -122,7 +122,9 @@ $(function() {
                 case "All": // // link 4 text - display all images at once
 
                         imagesCollection.forEach((image) => {
-                          image.classList.remove('none','');
+                          image.classList.remove('none');
+                          image.classList.remove('');
+                          image.classList.remove('hide');
 
                    });
 
